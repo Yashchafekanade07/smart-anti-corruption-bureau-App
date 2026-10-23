@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#090E1B"
+        android:fillViewport="true"
+        tools:context=".StudentRecordsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student Records"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:id="@+id/etStudentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Student Name"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#AAAAAA" />
+
+            <EditText
+                android:id="@+id/etStudentCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Course (e.g. AI &amp; DS)"
+                android:inputType="textCapWords"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#AAAAAA" />
+
+            <EditText
+                android:id="@+id/etStudentMarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Marks"
+                android:inputType="numberDecimal"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#AAAAAA" />
+
+            <Button
+                android:id="@+id/btnSaveStudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Save Student"
+                android:textAllCaps="false"
+                android:backgroundTint="#F97316" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="12dp"
+                android:text="Saved Student Records"
+                android:textColor="#FFD54F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/listStudents"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#151E30"
+                android:divider="#39465C"
+                android:dividerHeight="1dp" />
+
+        </LinearLayout>
+    </ScrollView>

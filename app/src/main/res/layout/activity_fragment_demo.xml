@@ -1,0 +1,42 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#080E1B">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACB Fragment Demo"
+        android:textColor="#FFD54F"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/btnHomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Show Home Fragment"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnDetailsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Show Details Fragment"
+        android:textAllCaps="false" />
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

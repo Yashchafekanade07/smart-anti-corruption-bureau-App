@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#090E1B"
+        android:fillViewport="true"
+        tools:context=".PreferencesActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SharedPreferences Practical"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="24dp" />
+
+            <EditText
+                android:id="@+id/etPreferenceName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your name"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#AAAAAA" />
+
+            <Button
+                android:id="@+id/btnSavePreference"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Save Name"
+                android:textAllCaps="false"
+                android:backgroundTint="#F97316" />
+
+            <Button
+                android:id="@+id/btnLoadPreference"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Load Saved Name"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/tvSavedName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="16dp"
+                android:background="#151E30"
+                android:text="Saved name will appear here"
+                android:textColor="#FFD54F"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnClearPreference"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Clear Saved Name"
+                android:textAllCaps="false"
+                android:backgroundTint="#C5222A" />
+
+        </LinearLayout>
+    </ScrollView>

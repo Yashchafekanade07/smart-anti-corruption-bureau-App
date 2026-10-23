@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "623840462963",
+    "project_id": "smartanticorruptionbureau",
+    "storage_bucket": "smartanticorruptionbureau.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623840462963:android:b180bedbe566b9cd494206",
+        "android_client_info": {
+          "package_name": "com.example.smartanticurruptionbeuroplatform"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3jY3oxNuI6Hfc4vrJ7r8hlc1ygXE1yq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
